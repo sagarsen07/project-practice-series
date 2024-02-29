@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:burlywood;
+    text-align: center;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px white;
+}
+#img{
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+#kalamji{
+    border-radius: 20px;
+}
+
+#tribute-page{
+    margin-top: 35px;
+    box-shadow: 5px 5px 25px white;
+    width: 70vw;
+    text-align: left;
+    padding: 15px;
+}
+
+#heading{
+    text-align: center;
+}
