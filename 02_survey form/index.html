@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="heading">
+            <h1>SagarSen Survey Form</h1>
+        </div>
+
+        <form id="form">
+            
+            <div class="form-attributes">
+                <label for="name" id="user-name">Name</label>
+                <input type="text" id="name" placeholder="Enter your Name">
+            </div>
+
+            <div class="form-attributes">
+                <label for="email" id="user-email">Email</label>
+                <input type="text" id="email" placeholder="abcd@xyz.com">
+            </div>
+
+            <div class="form-attributes">
+                <label for="age" id="user-age">Age</label>
+                <input type="text" id="age" placeholder="Enter your age in years">
+            </div>
+
+            <div class="form-attributes">
+                <label for="role" id="current-role">Which option best describes you?</label>
+                <select name="role" id="role">
+                    <option value="none" selected disabled hidden>Select</option>
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="other">Others</option>
+                </select>
+            </div>
+
+            <div class="form-attributes">
+                <label for="friend" id="ask-friend">Would you recommend Sagar Sen to a Freind</label>
+                
+                <div class="recommendation">
+                    <input type="radio" id="yes" name="recommend" value="Yes">
+                    <label for="yes">Yes</label>
+                </div>
+
+                <div class="recommendation">
+                    <input type="radio" name="recommend" id="no">
+                    <label for="no">No</label>
+                </div>
+
+                <div class="recommendation">
+                    <input type="radio" name="recommend" id="maybe">
+                    <label for="maybe">May be</label>
+                </div>
+            </div>
+
+            <div class="form-attributes">
+                <label>Languages and Framework known<small> (check all that apply)</small></label>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp1" value="C" id="C">
+                    <label for="C">C</label>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" name="inp2" value="C++" id="C++">
+                    <label for="C++">C++</label>
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" name="inp3" value="C#" id="C#">
+                    <label for="C#">C#</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp4" value="java" id="java">
+                    <label for="java">java</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp5" value="python" id="python">
+                    <label for="python">python</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp6" value="javaScript" id="javaScript">
+                    <label for="javaScript">javaScript</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp7" value="React" id="React">
+                    <label for="React">React</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp8" value="Angular" id="Angular">
+                    <label for="Angular">Angular</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp9" value="Django" id="Django">
+                    <label for="Django">Django</label>
+                </div>
+                
+                <div class="check">
+                    <input type="checkbox" name="inp10" value="Spring" id="Spring">
+                    <label for="Spring">Spring</label>
+                </div>
+            </div>
+
+            <div class="form-attributes">
+                <label for="suggestion-box">Any comments or suggestions</label>
+                <textarea name="suggestion-box" id="suggestion-box" placeholder="Enter your comments here"></textarea>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
