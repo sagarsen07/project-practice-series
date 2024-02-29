@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #05c46b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading{
+    font-size: 20px;
+}
+
+#form{
+    background-color: white;
+    padding: 30px 20px;
+    font-size: large;
+    font-family: inherit;
+    max-width: 500px;
+    box-shadow: 1px 1px 20px;
+    margin: 30px;
+}
+
+select, input, textarea{
+    display: block;
+    width: 90%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.form-attributes{
+    margin-bottom: 20px;
+}
+
+.recommendation input{
+    display: inline;
+    width: auto;
+}
+
+.check input{
+    display: inline;
+    width: auto;
+}
+
+.recommendation, .check {
+    margin-top: 10px;
+}
+
+button{
+    background-color: #05c46b;
+    padding: 10px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #777;
+    font-size:large;
+    border-radius: 5px;
+    margin-top: 35px;
+}
